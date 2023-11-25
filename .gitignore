@@ -5,3 +5,6 @@ ___pycache__/
 *pyo
 *pyd
 *.env
+
+echo "dice_roll_histogram" >> .gitignore
+echo "dice_rolls.json" >> .gitignore
