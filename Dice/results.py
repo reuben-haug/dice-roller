@@ -1,3 +1,5 @@
+import json
+
 # Function to save the results to a JSON file
 def save_results(all_results, total):
     try:

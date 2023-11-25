@@ -1,3 +1,5 @@
+import random
+
 # Function to roll the dice and print the results
 def roll_dice(dice, sides, rolls):
     all_results = []    # List to store all the results
