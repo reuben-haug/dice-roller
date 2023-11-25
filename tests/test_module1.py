@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from Dice.input import get_user_input
+from Dice.Dice.input import get_user_input
 
 class TestUserInput(unittest.TestCase):
     @patch('builtins.input', side_effect=['2', '6', '10'])

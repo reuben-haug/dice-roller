@@ -1,31 +1,35 @@
-# Dice Rolling Simulator 🎲
+# Dice Roller
 
-This is a simple dice rolling simulator written in Python. It allows the user to specify the number of dice, the number of sides on the dice, and the number of times to roll the dice. The results of each roll are printed to the console and saved to a JSON file.
+This is a simple Python program that simulates rolling dice. The user can specify the number of dice to roll, the number of sides on the dice, and the number of times to roll the dice.
 
 ## Features
 
-- User input for number of dice, sides, and rolls
-- Dice rolling with random results
-- Saving results to a JSON file
-- Loading results from a JSON file
+- User can specify the number of dice, number of sides, and number of rolls
+- Error handling for invalid user input
+- Uses the `dice` library for dice rolling simulation
+
+## Installation
+
+1. Clone this repository: `git clone https://github.com/reuben-haug/dice-roller.git`
+2. Navigate to the project directory: `cd dice-roller`
+3. Install the required libraries: `pip install -r requirements.txt`
 
 ## Usage
 
-1. Run `main.py`.
-2. When prompted, enter the number of dice you want to roll, the number of sides on the dice, and the number of times to roll the dice.
-3. The results of each roll will be printed to the console.
-4. The results will also be saved to a file named `dice_rolls.json`.
-5. A histogram of the dice roll results will be displayed using matplotlib. This graph shows the distribution of the dice roll results.
-
-## Requirements
-
-- Python 3
-- matplotlib
+Run the program with the command: `python -m main`
 
 ## Future Improvements
 
-- Add error handling for user input
-- Implement unit tests
-- Store results in a database
-- Plot results with matplotlib
-- Switch to using the `dice` library for more robust dice rolling functionality
+- Implement logging to track the application's activities
+- Add unit tests to ensure the code is working as expected
+- Allow user to provide input as command-line arguments
+- Implement an interactive mode where the user can keep rolling dice without having to restart the program
+- Provide statistics after each roll
+- Add a graphical user interface
+
+## Changelog
+
+### v1.0.1
+
+- Fixed library import issues
+- Switched to using the `dice` library for dice rolling simulation

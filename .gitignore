@@ -5,3 +5,6 @@ ___pycache__/
 *pyo
 *pyd
 *.env
+*.venv
+Dice/dice_roll_histogram.png
+Dice/dice_rolls.json
