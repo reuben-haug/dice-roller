@@ -1,9 +1,4 @@
 # Import necessary modules
-import random
-import matplotlib.pyplot as plt
-import json
-
-# Import necessary modules
 from input import get_user_input
 from roll import roll_dice
 from results import save_results, load_results
